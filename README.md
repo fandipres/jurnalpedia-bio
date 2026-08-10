@@ -1,1 +1,1 @@
-The official link portal for Jurnalpedia. Quick access to our website, Android app, Sinta/Scopus publication services, and trusted academic community.
+This repo contains the source code for the landing page of Jurnalpedia, an app that helps students and researchers understand the ins and outs of academic publishing through guidance, journal tips, and academic insights. This landing page serves as Jurnalpedia's introduction page for fellow #ResearchWarriors, and also applies to the bio.jurnalpedia.my.id landing page.
