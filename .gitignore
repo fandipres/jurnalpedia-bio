@@ -1,0 +1,4 @@
+# Konteks Claude Code (situs dipublish dari root repo via GitHub Pages,
+# jadi file ini akan jadi publik jika di-commit)
+CLAUDE.md
+.claude/
