@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hapus Akun dan Data - Jurnalpedia</title>
+    <meta name="description" content="Cara menghapus akun dan data pengguna aplikasi Jurnalpedia (com.jurnalpedia.app), baik dari dalam aplikasi maupun lewat permintaan email.">
+    <link rel="canonical" href="https://bio.jurnalpedia.my.id/delete-account/" />
+
+    <link rel="icon" href="/assets/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+    <meta name="theme-color" content="#000000">
+
+    <meta property="og:title" content="Hapus Akun dan Data - Jurnalpedia">
+    <meta property="og:description" content="Cara menghapus akun dan data pengguna aplikasi Jurnalpedia, baik dari dalam aplikasi maupun lewat permintaan email.">
+    <meta property="og:image" content="https://bio.jurnalpedia.my.id/assets/favicon.png">
+    <meta property="og:url" content="https://bio.jurnalpedia.my.id/delete-account/">
+    <meta property="og:type" content="website">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Hapus Akun dan Data - Jurnalpedia">
+    <meta name="twitter:description" content="Cara menghapus akun dan data pengguna aplikasi Jurnalpedia, baik dari dalam aplikasi maupun lewat permintaan email.">
+    <meta name="twitter:image" content="https://bio.jurnalpedia.my.id/assets/favicon.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="top-actions">
+            <div class="left-actions">
+                <a href="/" class="icon-btn" aria-label="Kembali ke Beranda"><i class="fa-solid fa-arrow-left"></i></a>
+            </div>
+            <button class="icon-btn" id="themeToggle" aria-label="Toggle Dark Mode">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+        </div>
+
+        <div class="bento-grid">
+            <div class="bento-card text-content-card span-2">
+                <h1>Hapus Akun dan Data Jurnalpedia</h1>
+
+                <p>Halaman ini untuk pengguna aplikasi Android <strong>Jurnalpedia</strong> (<code>com.jurnalpedia.app</code>) yang ingin menghapus akun beserta datanya. Akun dibuat otomatis saat Anda masuk dengan Google.</p>
+
+                <h2>Cara 1: Hapus dari dalam aplikasi (langsung)</h2>
+                <ol>
+                    <li>Buka aplikasi Jurnalpedia dan masuk dengan akun Google Anda.</li>
+                    <li>Buka tab <strong>Profil</strong>, lalu pilih <strong>Detail Akun</strong>.</li>
+                    <li>Ketuk <strong>Hapus Akun Permanen</strong> dan konfirmasi.</li>
+                </ol>
+                <p>Jika muncul pesan bahwa sesi telah kedaluwarsa, keluar (logout), masuk lagi, lalu ulangi langkah di atas.</p>
+
+                <h2>Cara 2: Minta lewat email</h2>
+                <p>Jika Anda sudah menghapus aplikasi atau tidak bisa masuk lagi, kirim email dari alamat yang sama dengan akun Google Anda ke <a href="mailto:jurnalpediaofc@gmail.com?subject=Permintaan%20Hapus%20Akun%20Jurnalpedia" style="color: var(--accent-color); font-weight: 500;">jurnalpediaofc@gmail.com</a> dengan subjek <em>Permintaan Hapus Akun Jurnalpedia</em>. Kami akan memproses permintaan Anda dan membalas lewat email.</p>
+
+                <h2>Data yang dihapus</h2>
+                <p>Saat akun dihapus dari dalam aplikasi, data berikut dihapus permanen dari server (Google Firebase):</p>
+                <ul>
+                    <li>Akun masuk (Firebase Authentication) dan ID pengguna.</li>
+                    <li>Profil: nama, alamat email, afiliasi, dan bidang studi.</li>
+                    <li>Koleksi: daftar jurnal yang Anda bookmark beserta folder buatan Anda.</li>
+                    <li>Salinan profil yang tersimpan terenkripsi di perangkat Anda.</li>
+                </ul>
+                <p>Tindakan ini tidak dapat dibatalkan.</p>
+
+                <h2>Data yang tidak ikut terhapus otomatis</h2>
+                <ul>
+                    <li><strong>Laporan koreksi data</strong> yang pernah Anda kirim (berisi nama, email, jurnal yang dilaporkan, dan isi koreksi) tidak ikut terhapus dari dalam aplikasi. Untuk menghapusnya, sebutkan hal itu dalam email permintaan Anda (Cara 2).</li>
+                    <li><strong>Hitungan bookmark</strong> pada data jurnal adalah angka gabungan tanpa identitas pengguna, sehingga tidak dapat dikaitkan kembali dengan Anda.</li>
+                    <li><strong>Data iklan</strong> yang dikumpulkan Google AdMob dikelola oleh Google. Anda dapat mengatur atau mengatur ulang ID iklan di pengaturan Android, atau melihat <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer" style="color: var(--accent-color); font-weight: 500;">kebijakan iklan Google</a>.</li>
+                </ul>
+
+                <p>Informasi lengkap tentang data yang kami kumpulkan ada di <a href="/privacy-policy/" style="color: var(--accent-color); font-weight: 500;">Kebijakan Privasi</a>.</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-links">
+                <a href="/privacy-policy/">Kebijakan Privasi</a>
+                <a href="/disclaimer/">Penyangkalan</a>
+                <a href="/terms-conditions/">Syarat dan Ketentuan</a>
+            </div>
+            <p class="footer-copyright">Copyright © <span id="year">2026</span> - Jurnalpedia</p>
+        </div>
+
+    </div>
+
+    <script src="../assets/script.js"></script>
+</body>
+</html>
